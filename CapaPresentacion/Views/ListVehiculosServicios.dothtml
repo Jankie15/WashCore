@@ -1,0 +1,28 @@
+﻿@viewModel CapaPresentacion.ViewModels.ListVehiculosServiciosViewModel, CapaPresentacion
+@masterPage Views/MasterPage.dotmaster
+
+<dot:Content ContentPlaceHolderID="MainContent">
+    <div class="page-center">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGa4WnZuRuIvWNTnFYBWtgjkYSi2tkRcD7ZSI9T7Rw0998mHXGFhfN5sBs1uutSbaurA&usqp=CAU" />
+
+
+
+        <dot:RouteLink Text="Aplicar Servicio" RouteName="Insert_Servicio" class="page-button btn-add btn-long" />
+        <dot:GridView DataSource="{value: VehiculoServico}" class="page-grid">
+            <Columns>
+                <dot:GridViewTextColumn ValueBinding="{value: IdVehiculoServicio}" HeaderText="ID" />
+                <dot:GridViewTextColumn ValueBinding="{value: IdServicio}" HeaderText="ID_Servicio" />
+                <dot:GridViewTextColumn ValueBinding="{value: IdVehiculo}" HeaderText="ID_Vehículo" />
+
+            </Columns>
+            <EmptyDataTemplate>
+                No existen datos, por favor recargue la página o vuelva más tarde.
+            </EmptyDataTemplate>
+        </dot:GridView>
+
+    </div>
+
+
+</dot:Content>
+

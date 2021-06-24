@@ -1,0 +1,26 @@
+﻿@viewModel CapaPresentacion.ViewModels.DefaultViewModel, CapaPresentacion
+@masterPage Views/MasterPage.dotmaster
+<dot:Content ContentPlaceHolderID="MainContent">
+
+    <div class="page-center">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGa4WnZuRuIvWNTnFYBWtgjkYSi2tkRcD7ZSI9T7Rw0998mHXGFhfN5sBs1uutSbaurA&usqp=CAU" />
+       
+
+
+        <dot:RouteLink Text="Agregar Vehículo" RouteName="Insert_Vehiculo" class="page-button btn-add btn-long" />
+        <dot:GridView DataSource="{value: Vehiculo}" class="page-grid">
+            <Columns>
+                <dot:GridViewTextColumn ValueBinding="{value: IdVehiculo}" HeaderText="ID" />
+                <dot:GridViewTextColumn ValueBinding="{value: Marca}" HeaderText="Marca" />
+                <dot:GridViewTextColumn ValueBinding="{value: Placa}" HeaderText="Placa" />
+                <dot:GridViewTextColumn ValueBinding="{value: Dueno}" HeaderText="Dueño" />
+
+            </Columns>
+            <EmptyDataTemplate>
+                No existen datos, por favor recargue la pagina o vuelva más tarde.
+            </EmptyDataTemplate>
+        </dot:GridView>
+
+    </div>
+</dot:Content>

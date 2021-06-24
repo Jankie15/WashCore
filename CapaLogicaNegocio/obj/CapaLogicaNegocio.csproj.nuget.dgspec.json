@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaLogicaNegocio\\CapaLogicaNegocio.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaAccesoDatos\\CapaAccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
+        "projectName": "CapaAccesoDatos",
+        "projectPath": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaAccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaEntidad\\CapaEntidad.csproj": {
+                "projectPath": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaEntidad\\CapaEntidad.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaEntidad\\CapaEntidad.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaEntidad\\CapaEntidad.csproj",
+        "projectName": "CapaEntidad",
+        "projectPath": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaEntidad\\CapaEntidad.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaEntidad\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.5.21301.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaLogicaNegocio\\CapaLogicaNegocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaLogicaNegocio\\CapaLogicaNegocio.csproj",
+        "projectName": "CapaLogicaNegocio",
+        "projectPath": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaLogicaNegocio\\CapaLogicaNegocio.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaLogicaNegocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaAccesoDatos\\CapaAccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\andre\\Downloads\\WashCar.core\\WashCar.core\\CapaAccesoDatos\\CapaAccesoDatos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

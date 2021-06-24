@@ -1,0 +1,36 @@
+﻿@viewModel CapaPresentacion.ViewModels.InsertServicioViewModel, CapaPresentacion
+@masterPage Views/MasterPage.dotmaster
+
+<dot:Content ContentPlaceHolderID="MainContent">
+
+    <div class="page-center">
+        <dot:RouteLink RouteName="Default" Text="Go back" class="page-button btn-back btn-long" />
+        <div class="page-box">
+            <h1>Agregar Vehículo</h1>
+
+
+
+            <div Validator.Value="{value: Servicio.Descripcion}"
+                 Validator.InvalidCssClass="has-error"
+                 Validator.SetToolTipText="true"
+                 class="page-input-box">
+                Descripción:
+                <dot:TextBox Text="{value: Servicio.Descripcion}" class="page-input" />
+            </div>
+
+            <div Validator.Value="{value: Servicio.Monto}"
+                 Validator.InvalidCssClass="has-error"
+                 Validator.SetToolTipText="true"
+                 class="page-input-box">
+                Monto:
+                <dot:TextBox Text="{value: Servicio.Monto}" class="page-input" />
+            </div>
+
+            <div class="btn-container">
+                <dot:Button Text="Agregar" Click="{command: InsertServicio()}" class="page-button" />
+            </div>
+        </div>
+    </div>
+
+</dot:Content>
+

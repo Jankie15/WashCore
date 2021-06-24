@@ -1,0 +1,24 @@
+﻿@viewModel CapaPresentacion.ViewModels.MasterPageViewModel, CapaPresentacion
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CapaPresentacion</title>
+	<dot:RequiredResource Name="Styles"/>
+</head>
+<body>
+
+    <div class="page-top">
+        <span class=page-top-left> <dot:RouteLink Text="Vehículos" RouteName="Default" class="page-button" /></span>
+
+        <span class=page-top-left> <dot:RouteLink Text="Servicios" RouteName="List_Servicios" class="page-button" /></span>
+
+        <span class=page-top-left> <dot:RouteLink Text="Servicios Aplicados" RouteName="List_Vehiculos_Servicios" class="page-button" /></span>
+    </div>
+   
+
+    <dot:ContentPlaceHolder ID="MainContent" />
+
+</body>
+</html>

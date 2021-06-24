@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="**/*.dothtml;**/*.dotmaster;**/*.dotcontrol" Exclude="obj/**/*.*;bin/**/*.*" CopyToPublishDirectory="Always" />
+    <None Remove="**/*.dothtml;**/*.dotmaster;**/*.dotcontrol" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="dotvvm_serialized_config.json.tmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DotVVM.AspNetCore" Version="3.0.1" />
+
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaAccesoDatos\CapaAccesoDatos.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CapaEntidad">
+      <HintPath>..\CapaEntidad\bin\Debug\net5.0\CapaEntidad.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaLogicaNegocio">
+      <HintPath>..\CapaLogicaNegocio\bin\Debug\net5.0\CapaLogicaNegocio.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+</Project>
